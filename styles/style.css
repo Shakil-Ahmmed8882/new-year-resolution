@@ -105,16 +105,16 @@ p {
 
 /* My Plans */
 .my-plans {
-  padding: 40px 120px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 0 4rem 0;
 }
 .my-plans .my-plains-container {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 .my-plan-title {
   margin-bottom: 3rem;
