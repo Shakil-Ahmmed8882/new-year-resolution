@@ -1,0 +1,229 @@
+/* google font(work sans)  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Roboto:wght@300;700&family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+.description {
+  width: 416px;
+  color: #444343;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f15b22;
+  color: #fff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+p {
+  line-height: 1.5;
+}
+/* ============== */
+
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 80vh;
+  background-image: url("../images/banner/banner2.png");
+  background-position: center;
+  background-size: cover;
+}
+.banner-content {
+  width: 500px;
+  margin-right: 9rem;
+  text-align: right;
+}
+.banner-content h1 {
+  font-size: 50px;
+}
+.banner-btn {
+  margin-top: 0.4rem;
+}
+
+/* Failure section */
+.failure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  padding: 160px 120px;
+}
+.failure .bg-circle {
+  width: 380px;
+  height: 389px;
+  background: rgba(98, 108, 244, 0.589);
+  border-radius: 50%;
+  position: relative;
+}
+.failure .person-img-container {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: -7rem;
+  left: -0.9rem;
+}
+.failure .person-img-container img {
+  transform: rotate(-3deg);
+  width: 100%;
+  height: 100%;
+}
+.failure .failure-content {
+}
+.failure ul li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.failure ul li:before {
+  content: "✓";
+  color: rgb(0, 219, 62);
+  margin-right: 0.4rem;
+  font-weight: bold;
+}
+
+/* My Plans */
+.my-plans {
+  padding: 40px 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.my-plans .my-plains-container {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+.my-plan-title {
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.plan img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.plan h4 {
+  width: 150px;
+  margin: 1rem 0 0.3rem 0;
+}
+.plan > p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Contact section */
+.contact {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  background: linear-gradient(to right, #f15d22d1, #f15d2244),
+    url("../images/watch.png") no-repeat center;
+  background-size: cover;
+  box-shadow: 1px 4px 10px gray;
+  margin: 2rem auto;
+}
+.contact h2 {
+  color: #fff;
+}
+.cta-btn {
+  margin-top: 1rem;
+  background-color: #fff;
+  color: #f15b22;
+}
+
+/* footer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+}
+.f-inner-container {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+footer p {
+  font-size: 14px;
+  color: #c5c5c5;
+  margin: 10px;
+  margin-left: 0;
+}
+.footer-description {
+  margin: 1rem 0;
+}
+.social-icons {
+  margin-top: 1.4rem;
+}
+.social-icons > * {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.social-icons > *:nth-child(3) {
+  margin-right: 0;
+}
+
+.follow-us p {
+  color: rgb(227, 227, 227);
+  font-weight: 500;
+}
+.follow-us input[type="email"] {
+  display: inline-block;
+  all: unset;
+  border: 1px solid #8a8a8a4b;
+  padding: 5px 10px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 10px 0 6px 0;
+}
+input::placeholder {
+  color: rgba(193, 193, 193, 0.674);
+  font-size: 12px;
+}
+.subscribe-btn {
+  border: none;
+  background-color: #fff;
+  color: #f15b22;
+  transition: all .2s linear;
+}
+.subscribe-btn:hover {
+  border: none;
+  background-color: #f15b22;
+  color: #ffffff;
+}
